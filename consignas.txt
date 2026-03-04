@@ -1,0 +1,39 @@
+<!-- Crear el menú de navegación y 5 archivos HTML para cada sección del sitio web, aplica entre estos los enlaces relativos y escribe 
+con etiquetas semánticas. Deberás incluir:
+
+Una lista no ordenada con el menú principal del sitio web con los nombres de cada una de las secciones y replicarlo en las mismas.
+
+Un formulario en la página de contacto.
+
+Un footer y replicarlo en todos tus HTML.
+
+Etiquetas multimedia como img e iframes.-->
+
+/* Aplicar con CSS las propiedades vistas hasta el momento para modificar textos, encabezados, img, colores, background a un archivo HTML de la actividad N°1 “Wireframe”.
+
+Ejemplo: Modificar el color de todos los links que forman parte del menú, y retirarles el subrayado predeterminado.*/
+
+/* Aplicar tipografías y box modeling a un archivo HTML de la actividad N°1 “Wireframe”.
+
+Ejemplos: modificar el valor de los ítems de la lista para que estén ubicados de manera horizontal en nuestro index; elegir una tipografía de Google Fonts y aplicarla al body, 
+elegir una tipografía local y aplicarla específicamente a los títulos. */
+
+/* Grids
+Generar que el index y una página más a elección de nuestro proyecto sea totalmente responsive utilizando grids para el layout, flexbox para los componentes y box modeling para terminar de acomodar los elementos. Es necesaria la utilización de media queries.
+
+Recomendaciones:
+En el html, generar estructura de grid-contenedor-padre y grid-item-hijo para poder trabajar desde el CSS con grid-area.
+
+Dentro de esos grid-item-hijo deberemos agregar etiquetas para generar los componentes (ej: nav - footer - content - etc) a los cuales acomodaremos aplicando flexbox.
+
+Si es necesario, aplicamos box modeling para terminar de acomodar y generar nuestro layout completo para la vista desktop.
+
+Deberás repetir este proceso pero dentro de una media querie mobile.
+*/
+
+/*Aplicando Bootstrap
+A partir del diseño hecho y los conocimientos adquiridos de Bootstrap, generar todo el sitio (cinco páginas) que demuestre el uso correcto del mismo.
+
+Recomendaciones:
+Incluye HTML completo con los respectivos links de CSS y JS Bootstrap para poder hacer uso del framework y generar un layout responsive.
+*/
