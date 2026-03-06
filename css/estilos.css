@@ -1,0 +1,146 @@
+/*------VARIABLES---------*/
+/*------EXTENDS---------*/
+/*------MIXINS---------*/
+/*------Reset CSS---------*/
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+/*------FUENTES---------*/
+/*------GRID---------*/
+.grid-container {
+  display: grid;
+  min-height: 100vh;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto 1fr auto;
+  grid-template-areas: "header" "main" "footer";
+}
+
+/*------BODY---------*/
+body {
+  font-family: "Lato", sans-serif;
+}
+
+/*------HEADER---------*/
+header {
+  background-color: white;
+  width: 100%;
+}
+header nav {
+  grid-area: "header";
+  background-color: white !important;
+  width: 100%;
+  height: 110%;
+}
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+header li a {
+  text-decoration: none;
+  font-size: 16px;
+  padding: 20px;
+  color: black;
+}
+
+.btn-outline-color {
+  color: rgb(66, 72, 116) !important;
+  border-color: rgb(220, 214, 247) !important;
+}
+.btn-outline-color:hover {
+  background-color: rgb(220, 214, 247) !important;
+  color: rgb(66, 72, 116) !important;
+}
+
+/*------MAIN---------*/
+main {
+  grid-area: main;
+}
+main h2 {
+  color: black;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 700;
+  padding: 20px;
+}
+main h3 {
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 400;
+  padding: 20px;
+}
+
+/*------FOOTER---------*/
+footer {
+  grid-area: footer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px;
+  margin-top: 5px;
+}
+footer p {
+  font-size: 14px;
+  color: black;
+}
+footer a {
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+}
+footer a img {
+  width: 24px;
+  height: 24px;
+  margin-left: 10px;
+}
+
+/*------INDEX---------*/
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding-left: 25vh;
+  width: 100%;
+  height: 95vh;
+  background-image: url("../img/hero-section.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  object-fit: cover;
+}
+.hero h2 {
+  color: white;
+  text-align: left;
+  font-size: 48px;
+  font-weight: 700;
+  padding: 0px;
+  margin-bottom: 10px;
+}
+.hero h3 {
+  color: white;
+  text-align: left;
+  font-size: 24px;
+  font-weight: 400;
+  padding: 0px;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 95vh;
+  object-fit: cover;
+}
+
+/*# sourceMappingURL=estilos.css.map */

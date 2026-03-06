@@ -1,0 +1,10 @@
+/*------MAIN---------*/
+main{
+    grid-area: main;
+    h2 {
+        @include h-style(black, center, 24px, 700, 20px);
+    }
+    h3 {
+        @include h-style(black, center, 20px, 400, 20px);
+    } 
+}

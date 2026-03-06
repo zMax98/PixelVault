@@ -1,0 +1,29 @@
+/*------INDEX---------*/
+.hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 25vh;
+    width: 100%;
+    height: 95vh;
+    background-image: url("../img/hero-section.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    object-fit: cover;
+    h2 {
+        @include h-style(white, left, 48px, 700, 0px);
+        margin-bottom: 10px;
+    }
+    h3 {
+        @include h-style(white, left, 24px, 400, 0px);
+    }
+}
+
+.carousel-item img {
+    width: 100%;
+    height: 95vh;
+    object-fit: cover;
+}

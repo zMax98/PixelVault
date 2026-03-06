@@ -1,0 +1,14 @@
+/*------VARIABLES---------*/
+$font-family: "Lato", sans-serif;
+$navbar-btn-color: (rgb(66, 72, 116), rgb(220, 214, 247));
+
+/*------EXTENDS---------*/
+
+/*------MIXINS---------*/
+@mixin h-style ($color, $text-align, $font-size, $font-weight, $padding) {
+    color: $color;
+    text-align: $text-align;
+    font-size: $font-size;
+    font-weight: $font-weight;
+    padding: $padding;  
+}

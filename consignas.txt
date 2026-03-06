@@ -37,3 +37,19 @@ A partir del diseño hecho y los conocimientos adquiridos de Bootstrap, generar 
 Recomendaciones:
 Incluye HTML completo con los respectivos links de CSS y JS Bootstrap para poder hacer uso del framework y generar un layout responsive.
 */
+
+/*Descripción de la actividad.
+
+Configurar el proyecto para que soporte SASS.
+
+Aplicar los conceptos vistos durante las clases de SASS en una página a elección (puedes modificar la sintaxis de tu código CSS hecho previamente y adaptarlo a las reglas de SASS).
+
+Luego cargar todo en GitHub.
+
+Recomendaciones:
+
+Instala SASS y crea el archivo SCSS para compilarlo en CSS. Envía ambos archivos como parte del desafío.
+
+Aplica algún concepto que incorpora SASS: genera los partials a partir de la idea de componentes, usa variables para aplicarla como valor a una propiedad y/o usa el selector & dentro de un nesting. Utiliza un condicional y/o un mixin.
+
+*/
