@@ -24,6 +24,7 @@ header {
 .btn-outline-color {
     color: nth($list: $navbar-btn-color, $n: 1) !important;
     border-color: nth($list: $navbar-btn-color, $n: 2) !important;
+    transition: all 0.3s ease-in-out;
     &:hover {
         background-color: nth($list: $navbar-btn-color, $n: 2) !important;
         color: nth($list: $navbar-btn-color, $n: 1) !important;
